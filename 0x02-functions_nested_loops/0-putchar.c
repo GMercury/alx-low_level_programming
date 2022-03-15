@@ -1,18 +1,15 @@
-#include<stdio.h>
 #include "main.h"
 
 /**
  * main - Entry point
- * program that prints _putchar, followed by a new line
- *
- * Return:always 0 (sucess)
+ * Return:0
  */
 
 int main(void)
-{	
-char s[9] = "_putchar";
+{
+char c[10] = "main";
 int i = 0;
-while (i < 8)
+while (i < 9)
 {
 _putchar(c[i]);
 i++;
