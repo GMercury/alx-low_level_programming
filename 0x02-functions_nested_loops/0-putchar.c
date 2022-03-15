@@ -8,15 +8,15 @@
  * Return:always 0 (sucess)
  */
 
-	int main(void)
+int main(void)
 {	
-		char s[9] = "_putchar";
-			int i = 0;
-		while (i < 8)
+char s[9] = "_putchar";
+int i = 0;
+while (i < 8)
 {
-	_putchar(c[i]);
-		i++;
+_putchar(c[i]);
+i++;
 }
-		_putchar('\n');
-	return (0);
+_putchar('\n');
+return (0);
 }
