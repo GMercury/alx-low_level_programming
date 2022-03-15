@@ -1,30 +1,28 @@
 #include <stdio.h>
-int main() 
+/**
+ * main - main block
+ * Description: computes and prints the sum of all the multiples of 3 or
+ * 5 below 1024 (excluded), followed by a new line
+ * Return: 0
+ */
+int main(void)
 {
+	int i = 0;
+	long int a = 0, b = 1, next;
 
-  int i, n;
+	while (i < 50)
+	{
+		next = a + b;
+		a = b;
+		b = next;
+		printf("%lu", next);
 
-  // initialize first and second terms
-  int t1 = 0, t2 = 1;
-
-  // initialize the next term (3rd term)
-  int nextTerm = t1 + t2;
-
-  // get no. of terms from user
-  printf("50: ");
-  scanf("%d", &n);
-
-  // print the first two terms t1 and t2
-  printf("Fibonacci Series: %d, %d, ", t1, t2);
-
-  // print 3rd to nth terms
-  for (i = 3; i <= n; ++i) {
-    printf("%d, ", nextTerm);
-    t1 = t2;
-    t2 = nextTerm;
-    nextTerm = t1 + t2;
-  }
-
-  return 0;
+		if (i < 49)
+		{
+			printf(", ");
+		}
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
-
