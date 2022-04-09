@@ -217,3 +217,4 @@ for (index = find_len(argv[2]) - 1; index >= 0; index--)
 digit = get_digit(*(argv[2] + index));
 get_prod(next_prod, argv[}
 
+
