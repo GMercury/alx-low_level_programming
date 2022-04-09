@@ -215,18 +215,5 @@ next_prod = create_xarray(size + 1);
 for (index = find_len(argv[2]) - 1; index >= 0; index--)
 {
 digit = get_digit(*(argv[2] + index));
-get_prod(next_prod, argv[1], digit, zeroes++);
-add_nums(final_prod, next_prod, size - 1);
-}
-for (index = 0; final_prod[index]; index++)
-{
-if (final_prod[index] != 'x')
-putchar(final_prod[index]);
-}
-putchar('\n');
+get_prod(next_prod, argv[}
 
-free(next_prod);
-free(final_prod);
-
-return (0);
-}
