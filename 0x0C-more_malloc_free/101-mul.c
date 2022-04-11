@@ -218,3 +218,4 @@ digit = get_digit(*(argv[2] + index));
 get_prod(next_prod, argv[}
 
 
+
