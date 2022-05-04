@@ -1,13 +1,16 @@
-#include "main.h"
-
 /**
- * elf_header - displays the information contained in the ELF header
- * @elf_filename: filename of type ELF
+ * main - displays the information contained in the ELF header at
+ * the start of an ELF file
  *
- * Return: 0 on success
+ * @ac: argument count
+ * @av: arguments
+ *
+ * Return: 0
  */
-int main(int argc, char *argv[])
-{
-	
 
+int main(int ac, char **av)
+{
+
+
+	return (0);
 }
