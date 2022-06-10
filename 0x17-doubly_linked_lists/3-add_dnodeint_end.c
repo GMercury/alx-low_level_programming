@@ -1,5 +1,5 @@
 #include "lists.h"
-/**3
+/**
  * add_dnodeint_end - Add a node in the tail
  * @head: Pointer to direction of the head
  * @n: The data integer
