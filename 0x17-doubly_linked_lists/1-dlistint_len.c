@@ -1,5 +1,5 @@
 #include "lists.h"
-/** 1d
+/**
  * dlistint_len - Return number of elements in dll
  * @h: Pointer to struct of ddl
  * Return: The amount of elements in dll
