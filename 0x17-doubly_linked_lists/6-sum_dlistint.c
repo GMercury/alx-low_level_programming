@@ -1,5 +1,5 @@
 #include "lists.h"
-/**
+/**6
  * sum_dlistint - Sum of the data (n)
  * @head: Pointer to the head
  * Return: The result of the sum

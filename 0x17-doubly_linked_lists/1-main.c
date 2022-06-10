@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "lists.h"
 
-/**
+/**1
  * main - check the code
  *
  * Return: Always EXIT_SUCCESS.
