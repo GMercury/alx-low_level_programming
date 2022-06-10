@@ -1,5 +1,5 @@
 #include "lists.h"
-/** 0print
+/**
  * print_dlistint - Prints all the nodes of ll
  * @h: Is the pointer to node structure
  * Return: the amount of nodes
