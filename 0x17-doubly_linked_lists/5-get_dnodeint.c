@@ -1,5 +1,5 @@
 #include "lists.h"
-/**5
+/**
  * get_dnodeint_at_index - Return the nth node
  * @head: Pointer to the head
  * @index: The node index
