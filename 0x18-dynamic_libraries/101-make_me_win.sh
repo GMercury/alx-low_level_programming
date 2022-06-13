@@ -1,3 +1,3 @@
 #!/bin/bash
- wget -q -O /tmp/librandy1.so https://github.com/kabingu-sam/BatchScripts/raw/master/librandy1.so
- export LD_PRELOAD=/tmp/librandy1.so
+wget -P /tmp https://github.com/holbertonschool/0x18.c/blob/master/101-md5_gm
+export LD_PRELOAD=/tmp/putshack.so
