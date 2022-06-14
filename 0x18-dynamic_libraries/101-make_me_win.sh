@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://github.com/holbertonschool/0x18.c/blob/master/101-md5_gm
-export LD_PRELOAD=/tmp/putshack.so
+wget -P /tmp https://github.com/edwinogwel/alx-low_level_programming/raw/master/0x18-dynamic_libraries/libmask.so
+export LD_PRELOAD=/tmp/libmask.so
